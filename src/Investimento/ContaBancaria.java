@@ -1,6 +1,7 @@
+package Investimento;
 
-public class New {
-/*
+public class ContaBancaria {
+	/*
 Muitas pessoas optam por investir o dinheiro das suas contas bancárias.
 Existem diversos tipos de investimentos, desde investimentos conservadores até mais arrojados.
 
@@ -24,5 +25,20 @@ Para verificar se a chance é maior que 30%, por exemplo, use:
 
 boolean escolhido = new java.util.Random().nextDouble() > 0.30;
 
-  */
+	 */
+
+	private double saldo;
+
+	public ContaBancaria(Double valor) {
+		this.saldo = valor;		
+	}
+
+	public void investimento(double valor) {
+		this.saldo += valor;
+	}
+
+	public double getSaldo() {
+		return this.saldo;
+	}	
+
 }
