@@ -29,3 +29,27 @@ public class ICCC implements Imposto {
 		return 0;
 	}
 }
+
+/*
+     public double calcula(Orcamento orcamento) {
+          if(orcamento.getValor() < 1000) {
+            return orcamento.getValor() * 0.05;
+          }
+          else if (orcamento.getValor() <= 3000) {
+            return orcamento.getValor() * 0.07;
+          }
+          else {
+            return orcamento.getValor() * 0.08 + 30;
+          }
+        }
+      }
+
+     public  class Teste {
+        public static void main(String[] args) {
+          Orcamento reforma = new Orcamento(500.0);
+
+          Imposto novoImposto = new ICCC();
+          System.out.println(novoImposto.calcula(reforma));
+        }
+      }
+ */
