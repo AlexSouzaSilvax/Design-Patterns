@@ -4,7 +4,7 @@ public class TesteInvestimento {
 	
 	public static void main(String[] args) {
 	
-	Investimento conservador = new Conservador();
+	Investimento conservador = new InvestimentoConservador();
 	
 	ContaBancaria conta = new ContaBancaria(500.0);
 	

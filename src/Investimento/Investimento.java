@@ -7,12 +7,6 @@ public interface Investimento {
 	double calcula(ContaBancaria conta);
 }
 
-class Conservador implements Investimento{
-	public double calcula(ContaBancaria conta) {
-		return conta.getSaldo() * 0.008;
-	} 
-}
-
 class Moderado implements Investimento {
 	private Random random;
 
